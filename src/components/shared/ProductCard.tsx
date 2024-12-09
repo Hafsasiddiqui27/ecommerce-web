@@ -20,7 +20,7 @@ const ProductCard = ({ title, image, price, discount,rating, originalPrice }:{ti
         rating: number}) => {
   
     return (
-      <div className="  border-gray-200 rounded-lg hover:shadow-lg transform transition-all duration-300 hover:translate-y-1">
+      <div className=" rounded-lg hover:shadow-lg transform transition-all duration-300 hover:translate-y-1">
         <Image
           className=" mt-10 rounded-lg"
           src={image} // Handles both string URLs and components

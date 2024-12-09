@@ -34,10 +34,10 @@ const Footer = () => {
   <Button variant="outline" size="icon" className='rounded-full hover:bg-black  hover:text-white'><Github size={28} strokeWidth={1.5}  /></Button>
   </div>
   </div>
-
+<div className='flex flex-col sm:flex-row space-y-3'>
   <div className='flex-1'>
     <h2 className='text-lg lg:text-3xl mb-6'>COMPANY</h2>
-    <ul className='text-[16px] text-black/60 leading-loose'>
+    <ul className='text-[16px] text-black/60  leading-normal md:leading-loose'>
       <li>About</li>
       <li>Features</li>
       <li>Work</li>
@@ -47,16 +47,18 @@ const Footer = () => {
 
   <div className='flex-1'>
     <h2 className='text-lg lg:text-3xl mb-6'>HELP</h2>
-    <ul className='text-[16px] text-black/60 leading-loose'>
-      <li>Customer Support</li>
-      <li>Delivery Details</li>
+    <ul className='text-[16px] text-black/60  leading-normal md:leading-loose'>
+      <li> Support</li>
+      <li> Details</li>
       <li>Terms & Conditions</li>
       <li>Privacy Policy</li>
     </ul>
   </div>
+  </div>
+  <div className='flex flex-col sm:flex-row space-y-3'>
   <div className='flex-1'>
     <h2 className=' text-lg lg:text-3xl mb-6'>FAQ</h2>
-    <ul className='text-[16px] text-black/60 leading-loose'>
+    <ul className='text-[16px] text-black/60  leading-normal md:leading-loose'>
       <li>Account</li>
       <li>Manage Deliveries</li>
       <li>Order</li>
@@ -66,12 +68,13 @@ const Footer = () => {
 
   <div className='flex-1'>
     <h2 className=' text-lg lg:text-3xl mb-6'>SERVICES</h2>
-    <ul className='text-[16px] text-black/60 leading-loose'>
+    <ul className='text-[16px] text-black/60  leading-normal md:leading-loose'>
       <li>Free eBooks</li>
       <li>Development Tutorials</li>
       <li>How to- Blog</li>
       <li>Youtube Playlist</li>
     </ul>
+  </div>
   </div>
 </section>
 <div className='text-sm  text-black/60 flex justify-between items-center bg-[#F0F0F0]'>

@@ -90,7 +90,7 @@ export const products2 = [
 const ProductList = () => {
   return (
     <div>
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+    <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-center p-10">
       {products1.map((product) => (
         
         <ProductCard
@@ -107,7 +107,7 @@ const ProductList = () => {
 
     <h2 className=" text-extrabold text-4xl text-center  "> TOP SELLING
     </h2>
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center gap-6 p-6" >
 
 {products2.map((product) => (
   

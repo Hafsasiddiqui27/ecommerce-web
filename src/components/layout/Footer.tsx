@@ -34,7 +34,8 @@ const Footer = () => {
   <Button variant="outline" size="icon" className='rounded-full hover:bg-black  hover:text-white'><Github size={28} strokeWidth={1.5}  /></Button>
   </div>
   </div>
-<div className='flex flex-col sm:flex-row space-y-3'>
+  
+
   <div className='flex-1'>
     <h2 className='text-lg lg:text-3xl mb-6'>COMPANY</h2>
     <ul className='text-[16px] text-black/60  leading-normal md:leading-loose'>
@@ -54,9 +55,10 @@ const Footer = () => {
       <li>Privacy Policy</li>
     </ul>
   </div>
-  </div>
-  <div className='flex flex-col sm:flex-row space-y-3'>
-  <div className='flex-1'>
+ 
+ 
+ 
+  <div className='flex-1' >
     <h2 className=' text-lg lg:text-3xl mb-6'>FAQ</h2>
     <ul className='text-[16px] text-black/60  leading-normal md:leading-loose'>
       <li>Account</li>
@@ -66,7 +68,7 @@ const Footer = () => {
     </ul>
   </div>
 
-  <div className='flex-1'>
+  <div>
     <h2 className=' text-lg lg:text-3xl mb-6'>SERVICES</h2>
     <ul className='text-[16px] text-black/60  leading-normal md:leading-loose'>
       <li>Free eBooks</li>
@@ -75,7 +77,8 @@ const Footer = () => {
       <li>Youtube Playlist</li>
     </ul>
   </div>
-  </div>
+
+ 
 </section>
 <div className='text-sm  text-black/60 flex justify-between items-center bg-[#F0F0F0]'>
 <p>Shop.co © 2000-2023, All Rights Reserved</p>

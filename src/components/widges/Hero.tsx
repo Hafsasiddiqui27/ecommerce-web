@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../ui/button'
 import HeroPoster from '@/assets/images/hero-poster.png'
 import Svector from '@/assets/images/vectoro.png'
 import Lvector from '@/assets/images/vector.png'

@@ -1,5 +1,4 @@
 import { Twitter } from 'lucide-react';
-import Link from 'next/link';
 import { Facebook } from 'lucide-react';
 import { Instagram } from 'lucide-react';
 import { Github } from 'lucide-react';

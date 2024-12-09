@@ -1,6 +1,5 @@
 import React from 'react'
 import ProductCard from '@/components/shared/ProductCard'
-import Image from 'next/image';
 import First from "@/assets/products/first.png"
 import Second from  "@/assets/products/second.png";
 import Third from "@/assets/products/third.png";
@@ -9,7 +8,6 @@ import one from "@/assets/products/one.png";
 import two from "@/assets/products/two.png";
 import Three from "@/assets/products/three.png";
 import Four from "@/assets/products/four.png";
-import Link from 'next/link';
 
 
 export const products1 = [

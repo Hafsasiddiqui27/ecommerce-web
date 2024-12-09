@@ -1,12 +1,9 @@
 
-import Image, { ImageProps }  from "next/image";
-import Link from "next/link";
+import Image, { StaticImageData } from 'next/image'; 
 
-
-  
   export type Product = {
     title: string;
-    image: React.ComponentType<ImageProps> | string;
+    image: string| StaticImageData;
     price: number;
     originalPrice?:number;
     discount?: number;
@@ -16,7 +13,7 @@ import Link from "next/link";
 
 
 const ProductCard = ({ title, image, price, discount,rating, originalPrice }:{title: string;
-     image: string;
+     image: string | StaticImageData;
         price: number;
         originalPrice?:number;
      discount?: number;

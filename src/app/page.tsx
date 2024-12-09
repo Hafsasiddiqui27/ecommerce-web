@@ -2,7 +2,6 @@ import Hero from "@/components/widges/Hero";
 import Products from "@/components/widges/Products";
 import Bar from "@/components/widges/Bar";
 import Happy from "@/components/widges/Happy";
-import ProductCard from "@/components/shared/ProductCard";
 import ProductList from "@/components/shared/ProductList";
 import { Button } from "@/components/ui/button";
 

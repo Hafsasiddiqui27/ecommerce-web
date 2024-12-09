@@ -8,7 +8,6 @@ import {
   import {
     Card,
     CardContent,
-    CardDescription,
     CardFooter,
     CardHeader,
     CardTitle,
@@ -38,7 +37,7 @@ const Happy = () => {
    Sarah M. <CircleCheck className="bg-[#01AB31] rounded-full" strokeWidth={1.5} /></div>
  </CardContent>
  <CardFooter>
-   <p className="text-sm">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+   <p className="text-sm">I am blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I have bought has exceeded my expectations.</p>
  </CardFooter>
 </Card>
 
@@ -51,7 +50,7 @@ const Happy = () => {
    Alex K. <CircleCheck className="bg-[#01AB31] rounded-full" strokeWidth={1.5} /></div>
  </CardContent>
  <CardFooter>
-   <p className="text-sm">""Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”</p>
+   <p className="text-sm">Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.</p>
  </CardFooter>
 </Card>
 
@@ -64,7 +63,7 @@ const Happy = () => {
    James L. <CircleCheck className="bg-[#01AB31] rounded-full" strokeWidth={1.5} /></div>
  </CardContent>
  <CardFooter>
-   <p className="text-sm">"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”</p>
+   <p className="text-sm">As someone who is always on the lookout for unique fashion pieces, I am thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.</p>
  </CardFooter>
 </Card>
 
@@ -77,7 +76,7 @@ const Happy = () => {
    Sarah M. <CircleCheck className="bg-[#01AB31] rounded-full" strokeWidth={1.5} /></div>
  </CardContent>
  <CardFooter>
-   <p className="text-sm">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+   <p className="text-sm">I am blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I have bought has exceeded my expectations.</p>
  </CardFooter>
 </Card>
 
@@ -90,7 +89,7 @@ const Happy = () => {
    Satoshi S. <CircleCheck className="bg-[#01AB31] rounded-full" strokeWidth={1.5} /></div>
  </CardContent>
  <CardFooter>
-   <p className="text-sm">""As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”</p>
+   <p className="text-sm">As someone who is always on the lookout for unique fashion pieces, I am thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.</p>
  </CardFooter>
 </Card>
 
@@ -103,7 +102,7 @@ const Happy = () => {
    Sarah M. <CircleCheck className="bg-[#01AB31] rounded-full" strokeWidth={1.5} /></div>
  </CardContent>
  <CardFooter>
-   <p className="text-sm">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+   <p className="text-sm">I am blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I have bought has exceeded my expectations.</p>
  </CardFooter>
 </Card>
 

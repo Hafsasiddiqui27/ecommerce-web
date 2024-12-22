@@ -6,7 +6,8 @@ const page = async ({params}:any) => {
   
   return (
     <div>
-      <h1>jkhk</h1>
+      <h1>creating pages
+      </h1>
     </div>
   )
 }

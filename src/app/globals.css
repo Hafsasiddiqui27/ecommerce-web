@@ -4,7 +4,7 @@
 
 /* styles/globals.css */
 
-@font-face {
+/* @font-face {
   font-family: 'Satoshi';
   src: url('/fonts/satoshi/Satoshi-Regular.woff2') format('woff2'),
        url('/fonts/satoshi/Satoshi-Regular.woff') format('woff');
@@ -21,12 +21,12 @@
 }
 
 /* Apply Satoshi font globally */
-body {
+/* body {
   font-family: 'Satoshi', sans-serif;
 }
 
 /* styles/globals.css */
-@font-face {
+/* @font-face {
   font-family: 'Integral CF';
   src: url('/fonts/integral-cf/IntegralCF-Regular.woff2') format('woff2'),
        url('/fonts/integral-cf/IntegralCF-Regular.woff') format('woff');
@@ -40,9 +40,8 @@ body {
        url('/fonts/integral-cf/IntegralCF-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
-}
+} 
 
 body {
   font-family: 'Integral CF', sans-serif;
-}
-
+} */

@@ -1,5 +1,6 @@
 
 import Image, { StaticImageData } from 'next/image'; 
+import Link from 'next/link';
 
   export type Product = {
     title: string;
@@ -20,7 +21,8 @@ const ProductCard = ({ title, image, price, discount,rating, originalPrice }:{ti
         rating: number}) => {
   
     return (
-      <div className=" rounded-lg hover:shadow-lg transform transition-all duration-300 hover:translate-y-1">
+      
+      <div className=" rounded-lg items-center hover:shadow-lg transform transition-all duration-300 hover:translate-y-1">
         <Image
           className=" mt-10 rounded-lg"
           src={image} // Handles both string URLs and components
@@ -28,11 +30,12 @@ const ProductCard = ({ title, image, price, discount,rating, originalPrice }:{ti
           width={295} // Set width (required for optimization)
           height={298} // Set height (required for optimization)
         />
+      
 
         <div className="p-4 ">
-        <h2 className="font-bold mt-2 text-lg">{title}</h2>
+        <h2 className="font-bold mt- mb-2 text-lg">{title}</h2>
           
-          <div className="flex mb-4">
+          <div className="flex mb-2">
             {/* Rating Stars */}
             <div className="flex text-yellow-500">
               {Array.from({ length: 5 }).map((_, index) => (

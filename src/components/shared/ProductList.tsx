@@ -8,6 +8,7 @@ import one from "@/assets/products/one.png";
 import two from "@/assets/products/two.png";
 import Three from "@/assets/products/three.png";
 import Four from "@/assets/products/four.png";
+import Link from 'next/link';
 
 
 export const products1 = [
@@ -90,27 +91,29 @@ export const products2 = [
 const ProductList = () => {
   return (
     <div>
-    <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-center p-10">
-      {products1.map((product) => (
-        
-        <ProductCard
-          key={product.id}
-          title={product.title}
-          image={product.image}
-          price={product.price}
-          originalPrice={product.originalPrice}
-          rating={product.rating}
-          discount={product.discount}
-        />
-      ))}
-    </div>
+     
+     <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-center p-10">
+  {products1.map((product) => (
+    <Link href={`/products/${product.id}`} key={product.id}>
+      <ProductCard
+        title={product.title}
+        image={product.image}
+        price={product.price}
+        originalPrice={product.originalPrice}
+        rating={product.rating}
+        discount={product.discount}
+      />
+    </Link>
+  ))}
+</div>
+
 
     <h2 className=" text-extrabold text-4xl text-center  "> TOP SELLING
     </h2>
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center gap-6 p-6" >
 
 {products2.map((product) => (
-  
+  <Link href={`/products/${product.id}`} key={product.id}>
   <ProductCard
     key={product.id}
     title={product.title}
@@ -120,6 +123,7 @@ const ProductList = () => {
     rating={product.rating}
     discount={product.discount}
   />
+  </Link>
 ))}
 </div>
 </div>

@@ -16,20 +16,20 @@ const Footer = () => {
    
     <footer className="mt-6 overflow-x-hidden">
     {/* Top Section */}
-    <div className="w-full gap-x-20 grid grid-cols-1 md:grid-cols-2 py-9 px-6 md:py-4 md:px-16 mx-auto bg-black rounded-[20px] overflow-hidden">
+    <div className="w-full gap-x-20 grid grid-cols-1 md:grid-cols-2  px-6 py-4 md:px-16 mx-auto bg-black rounded-[20px] overflow-hidden">
       <div>
-        <h2 className="text-white text-2xl md:text-4xl font-bold px-8 py-11 text-center md:text-left">
-          STAY UP TO DATE ABOUT OUR LATEST OFFERS
+        <h2 className="text-white text-2xl md:text-4xl font-bold px-8 py-2 mb-3 text-center md:text-left">
+          STAY UPTO DATE ABOUT OUR LATEST OFFERS
         </h2>
       </div>
       <div className="flex items-center justify-center md:justify-start">
-        <div className="flex flex-col w-full max-w-[349px] mx-auto md:mx-0">
+        <div className="flex flex-col items-center w-full max-w-[349px] mx-auto md:mx-0">
           <input
             type="text"
             placeholder="Enter your Email Address"
-            className="p-3 rounded-full w-96 bg-gray-100 mb-4 text-sm outline-none"
+            className="p-3 rounded-full w-72 md:w-96 bg-gray-100 mb-4 text-sm outline-none"
           />
-          <Button className="text-black hover:bg-slate-100 bg-gray-100 h-11 p-3 rounded-full font-semibold w-96 text-center">
+          <Button className="text-black hover:bg-slate-100 bg-gray-100 h-11 p-3 rounded-full font-semibold w-72 md:w-96 text-center">
             Subscribe to Newsletter
           </Button>
         </div>

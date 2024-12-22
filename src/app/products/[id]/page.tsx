@@ -1,8 +1,8 @@
-import { log } from 'console'
+
 import React from 'react'
 
-const page = async ({params}:any) => {
-  const{id} = await params
+const page = async () => {
+ 
   
   return (
     <div>

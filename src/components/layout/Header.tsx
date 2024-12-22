@@ -1,16 +1,9 @@
-import { Button } from '@/components/ui/button'
+
 import Link from 'next/link'
 import { ShoppingCart } from 'lucide-react';
 import { CircleUserRound } from 'lucide-react';
 import { Search } from 'lucide-react';
 import { ChevronDown } from 'lucide-react';
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet"
 import { SheetSide } from '@/components/layout/sheet';
 
 

@@ -1,7 +1,5 @@
 
 import Image, { StaticImageData } from 'next/image'; 
-import Link from 'next/link';
-
   export type Product = {
     title: string;
     image: string| StaticImageData;

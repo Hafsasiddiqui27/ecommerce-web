@@ -9,11 +9,12 @@ import two from "@/assets/products/two.png";
 import Three from "@/assets/products/three.png";
 import Four from "@/assets/products/four.png";
 import Link from 'next/link';
+import { Product } from '@/components/shared/ProductCard';
 
 
-export const products1 = [
+export const products1:Product[] = [
   {
-    id: 1,
+    id: '1',
     slug: 't-shirt-with-tape-details',
     title: 'T-shirt With Tape Details',
     image: First,  // Use static assets in /public
@@ -21,7 +22,7 @@ export const products1 = [
     rating: 4,
   },
   {
-    id: 2,
+    id: '2',
     slug: 'skinny-fit-jeans',
     title: 'Skinny Fit Jeans',
     image: Second,
@@ -31,7 +32,7 @@ export const products1 = [
     originalPrice: 260,
   },
   {
-    id: 3,
+    id: '3',
     slug: 'checkered-shirt',
     title: 'Checkered Shirt',
     image: Third,
@@ -41,7 +42,7 @@ export const products1 = [
     originalPrice: 200,
   },
   {
-    id: 4,
+    id: '4',
     slug: 'sleeve-striped-t-shirt',
     title: 'Sleeve Striped T-shirt',
     image: Forth,
@@ -52,9 +53,9 @@ export const products1 = [
   },
 ];
 
-export const products2 = [
+export const products2:Product[] = [
   {
-    id: 5,
+    id: '5',
     slug: 'vertical-strip',
     title: 'Vertical Striped Shirt',
     image: one,  // Use static assets in /public
@@ -64,7 +65,7 @@ export const products2 = [
     discount:-20,
   },
   {
-    id: 6,
+    id: '6',
     slug: 'courage-graphic',
     title: 'Courage Graphic T-shirt',
     image: two,  // Use static assets in /public
@@ -72,7 +73,7 @@ export const products2 = [
     rating: 4,
   },
   {
-    id: 7,
+    id: '7',
     slug: 'loose-fit',
     title: 'Loose Fit Bermuda Short',
     image: Three,  // Use static assets in /public
@@ -80,7 +81,7 @@ export const products2 = [
     rating: 3,
   },
   {
-    id: 8,
+    id: '8',
     slug: 'faded-skiny',
     title: 'Faded Skinny Jeans',
     image: Four,  // Use static assets in /public
@@ -115,7 +116,6 @@ const ProductList = () => {
 {products2.map((product) => (
   <Link href={`/products/${product.id}`} key={product.id}>
   <ProductCard
-    key={product.id}
     title={product.title}
     image={product.image}
     price={product.price}
